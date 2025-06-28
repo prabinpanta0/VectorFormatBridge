@@ -204,11 +204,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 *VectorFormatBridge - Bridging the gap between vector graphics formats*
+
 ```
 : ¨·.·¨ :
  ` ·. 🦋
-                  ╱|、                   
+                 ╱|、                  
                 (˚ˎ 。7  
-                |、˜〵          
-                じしˍ,)ノ           
+                |、˜ \          
+                じしˍ,)ノ            
 ```
