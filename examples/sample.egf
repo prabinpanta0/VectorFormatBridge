@@ -1,0 +1,23 @@
+# Example EGF file showing VectorFormatBridge capabilities
+# This demonstrates the Enhanced Graphics Format syntax
+
+# Define canvas
+M(500,400,#fff)
+
+# Define reusable entities
+H#01 = R(50,50,120,80) S(#2c3e50,#ff6b6b)
+H#02 = C(300,100,50) S(#2c3e50,#4ecdc4)
+H#03 = L(50,200,200,250) S(#e74c3c)
+H#04 = E(350,220,60,35) S(#2c3e50,#f39c12)
+H#05 = P[M 100 300 Q 150 280 200 300 T 300 320] S(#8e44ad,#none)
+H#06 = PG[420,150 450,100 480,150 465,180 435,180] S(#2c3e50,#1abc9c)
+H#07 = PL[50,350 100,330 150,360 200,340 250,370] S(#e67e22)
+
+# Instantiate entities with transforms
+CALL#01 T(0,0,1,0)
+CALL#02 T(0,0,1,0)  
+CALL#03 T(0,0,1,0)
+CALL#04 T(0,0,1,0)
+CALL#05 T(0,0,1,0)
+CALL#06 T(0,0,1,0)
+CALL#07 T(0,0,1,0)
